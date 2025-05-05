@@ -25,7 +25,7 @@
 - Agrocd для деплоя и CD
 
 ### Предварительные требования:
-- В YandexCloud должен быть создан сервисный аккаунт с ролями vpc.publicAdmin, container-registry.images.puller, k8s.cluster-api.cluster-admin, k8s.admin, load-balancer.admin, k8s.clusters.agent
+- В YandexCloud должен быть создан сервисный аккаунт k8s с ролями vpc.publicAdmin, container-registry.images.puller, k8s.cluster-api.cluster-admin, k8s.admin, load-balancer.admin, k8s.clusters.agent
 - Нужно сгенерировать ключ доступа и авторизованный IAM ключ
 - В secret CLOUD должен быть внесен id клауда YandexCloud
 - В secret FOLDER должен быть внесен id директории YC, в которой нужно развернуть кластер
