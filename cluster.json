@@ -1,5 +1,5 @@
 {
     "name": "otus",
-    "nodes": 2,
+    "nodes": 3,
     "description": "Cluster in YC"
 }
