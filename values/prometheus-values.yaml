@@ -38,7 +38,7 @@ alertmanager:
     tls:
     - hosts:
       - *alertmanagerUrl
-    storage:
+  storage:
     volumeClaimTemplate:
       spec:
         storageClassName: *storageClass
@@ -46,7 +46,7 @@ alertmanager:
         resources:
           requests:
             storage: 2Gi
-    externalUrl: *alertmanagerUrlFull
+  externalUrl: *alertmanagerUrlFull
 
 grafana:
   defaultDashboardsTimezone: 'Europe/Minsk'
