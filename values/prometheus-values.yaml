@@ -104,7 +104,7 @@ prometheus:
       - *prometheusUrl
 
   prometheusSpec:
-    retention: 10d
+    retention: 2d
     retentionSize: 1GB
     storageSpec:
       volumeClaimTemplate:
@@ -112,7 +112,7 @@ prometheus:
           storageClassName: *storageClass
           resources:
             requests:
-              storage: 1Gi
+              storage: 2Gi
     resources:
       requests:
         cpu: 300m
