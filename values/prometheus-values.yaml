@@ -88,9 +88,12 @@ kubeEtcd:
     insecureSkipVerify: true
 
 kubeScheduler:
-  enabled: true
+  enabled: false
   serviceMonitor:
     insecureSkipVerify: true
+
+kubeControllerManager:
+  enabled: false
 
 prometheus:
   ingress:
